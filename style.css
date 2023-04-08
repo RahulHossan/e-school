@@ -1,0 +1,208 @@
+.header-section{
+    background-color: #F0FFF0;
+
+}
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    
+}
+section{
+    padding: 20px 0px;
+}
+
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+}
+nav{
+    width: 80%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000000;
+    padding: 10px 25px;
+    display: block;
+    font-size: 16px;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #21B573;
+    transition: .5s;
+
+
+}
+
+.right-img img{
+    width: 100%;
+    height: 100%;
+}
+.left-content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.left-content .learn{
+    color: red;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.left-content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 20px;
+
+}
+.left-content .schedule{
+    color: #21B573;
+}
+.left-content a{
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 10px;
+}
+.education-single-boxs{
+    width: 250px;
+    height: 250px;
+    background-color: #F8FFFB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px  ;
+    text-align: center;
+    margin: 0px 20px;
+    border-radius: 10px;
+   
+}
+.education-single-boxs:hover{
+
+    background-color: #fff;
+    box-shadow: 0px 0px 40px #f0f0f0;
+}
+.education-single-boxs img{
+    width: 90px;
+    height: 100px;
+}
+.education-single-boxs h3{
+    padding-top: 20px;
+    font-size: 24px;
+}
+.education-area{
+    width: 90%;
+    margin: 50px auto 0px;
+}
+.modern_psychology_area{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 100px;
+}
+.modern_psychology_area h1{
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #413960;
+
+}
+.psy_single_boxs{
+    width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 20px;
+    box-shadow: 2px 2px 30px #f0f0f0;
+    margin: 0px 10px;
+}
+.psy_single_boxs img{
+    width: 100%;
+}
+.psy_single_boxs h3{
+    margin-top: 20px;
+}
+.psy_single_boxs a{
+    background-color: #21B573;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: #F0FFF0;
+
+}
+.psy_single_boxs footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    color: #585859;
+
+}
+.footer_section img{
+    width: 30px;
+}
+.footer_section h4{
+    display: inline-block;
+    font-size: 16px;
+
+}
+.testimonial_area{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 100px 0px;
+
+}
+.testimonial_area h1{
+    font-size: 60px;
+    font-weight: 900;
+    padding-bottom: 60px;
+}
+.testimonial_area img{
+    width: 150px;
+}
+.testimonial_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+.testimonial_content p{
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.footer_area{
+    background-color: #282531;
+    padding: 70px 0px;
+    overflow: hidden;
+    color: #fff;
+}
+.footer-content{
+    width: 90%;
+    margin: 0px auto;
+}
+.course_list h3{
+    font-weight: 100;
+
+}
+.course_list h3:first-child{
+    font-weight: bold;
+}
+.copy_rights{
+    text-align: center !important;
+    padding-top: 100px;
+    font-size: 12px;
+}
